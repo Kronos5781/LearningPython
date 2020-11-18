@@ -1,6 +1,6 @@
 import numpy as np
 
-input_file = open("bakery-input.txt", "r")
+input_file = open("input.txt", "r")
 
 input = input_file.read()
 input = np.array(input.split(" "))
